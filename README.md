@@ -8,6 +8,11 @@
 
 # 특정 파일을 git이 감시하도록
 ### 그 이후부터는 이것만 하면 됨
+# git init # 지켜봐줘
 # git add 파일명 (. 을 입력하면 현재 디렉토리 내의 모든 것을 관찰)
 # git commit -m "메세지와 함께 확정"
 # git push origin main
+
+### 파일을 clone 하는 방법은 아래와 같다.
+# git clone https://github.com/sangminpark9/streamlit01.git
+
