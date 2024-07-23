@@ -19,7 +19,7 @@ with st.sidebar:
     start_date, end_date = st.date_input(
         'Select a date range',
         value=(today, today + datetime.timedelta(days=7)))
-    button_result = st.button('주가데이터 확인')
+    button_result = st.button('확인')
 date_range=[]
 date_range.append(start_date)
 date_range.append(end_date)
